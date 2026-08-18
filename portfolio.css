@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #eef2f6;
+    color: #334155;
+    line-height: 1.6;
+}
+
+header {
+    padding: 40px 20px;
+    position: relative;
+    background-color: #192335;
+    text-align: center;
+}
+
+header h1 {
+    letter-spacing: 1px;
+    font-size: 34px;
+    margin-bottom: 6px;
+    color: #38BDF8;
+    text-transform: capitalize;
+}
+
+header p {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav a:hover {
+    background-color: #38BDF8;
+    box-shadow: 0 4px 10px rgba(rgba(47, 38, 38, 0.097), green, blue, alpha);
+}
+
+main {
+    padding: 40px;
+}
+
+#about {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#about h2 {
+    color: #090f1c;
+    font-size: 24px;
+    border-left: 5px solid #0284c7;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    /* padding: 20px;
+    /* margin: 10px; */
+}
+
+#about figure {
+    text-align: center;
+    padding: 0 20px;
+    margin: 40px;
+}
+
+figure img {
+    border-radius: 250px;
+    border: 5px solid blueviolet;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
+#about p {
+    padding: 20px;
+    margin: 10px;
+    background-color: #c0caca30;
+    border-radius: 7px;
+}
+
+#projects {
+
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#projects h2 {
+
+
+    color: #090f1c;
+    font-size: 24px;
+    border-left: 5px solid #0284c7;
+    padding-left: 12px;
+    margin-bottom: 15px;
+
+}
+
+#hii {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.banty {
+    flex: 1;
+    min-width: 260px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banty:hover {
+    border: 2px solid rgba(108, 106, 106, 0.1);
+    box-shadow: 5px;
+}
+
+.banty h3 {
+
+
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.banty p {
+    /* text-align: left 80px; */
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.banty a {
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 200;
+    color: #e2e8f0;
+
+}
+
+.banty a:hover {
+    background-color: rgb(109, 109, 136);
+}
+
+.chiku {
+    flex: 1;
+    min-width: 260px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.chiku:hover {
+    border: 2px solid rgba(108, 106, 106, 0.1);
+    box-shadow: 5px;
+}
+
+.chiku h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.chiku p {
+    /* text-align: left 80px; */
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.chiku a {
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 200;
+    color: #e2e8f0;
+
+}
+
+.chiku a:hover {
+    background-color: rgb(109, 109, 136);
+}
+
+#hello {
+    padding: 10px 40px;
+    margin: 8px;
+    background-color: #c7dcfa;
+    border-radius: 10px;
+
+
+}
+
+#hello ul {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+#hello ul p {
+
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 19px;
+    border: 1px solid #bae6fd
+}
+
+#contact {
+    background-color: #b9c1c9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+    border-left: 4px solid blue;
+    padding: 20px;
+}
+
+#contact video {
+    margin-bottom: 100px;
+    height: auto;
+    max-width: 100%;
+    background-color: #bae6fd;
+    border: 2px solid rgb(231, 222, 222);
+    box-shadow: 2px 2px 1px;
+    border-radius: 20px;
+}
+footer{
+    padding: 0 50px;
+    margin: 50px;
+    background-color: #090f1c;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    color: #e0f2fe;
+    font-weight: 500;
+}
+footer h2{
+    border-left: 6px solid blue;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+footer p{
+text-decoration: none;
+padding-bottom: 10px;
+}
